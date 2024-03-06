@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Personal Information</title>
+    <style>
+		body {
+			text-align: center;
+			}
+			
+        .avatar {
+            width: 350px;
+            height: 350px;
+            margin: auto;
+            display: block;
+        }
+        .garisan {
+            border-bottom: 1px solid black;
+            height: 1em;
+            padding-bottom: 10px;
+        }
+        .garisan span {
+            background: white;
+            padding: 0 0.4em;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .resume-buttons {
+            margin-top: 20px;
+        }
+        .resume-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 5px;
+        }
+        .resume-buttons a:hover {
+            background-color: #d4468b;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="w3-container w3-pink w3-center">
+        <h1 class="w3-serif"><b>Personal Information</b></h1>
+        <p><a href="PersonalInfo.html">Main</a> | <a href="Resume.html">Resume</a> | <a href="Tools.html">Tools</a></p>
+    </header>
+
+    <div class="w3-auto w3-margin-top" >
+        <div class="w3-white w3-text-grey w3-card-4" >
+            <div class="w3-display-container">
+			<br>
+                <img class="avatar" src="images/Gambar.jpg" alt="Aina Safiyah">
+                <h2 class="w3-serif" style="font-size:60px; color:black; text-align:center;"><b>Aina Safiyah</b></h2>
+            </div>
+            <div class="w3-container" >
+                <h4 class="garisan" style="font-size:26px;"><span>Information</span></h4>
+                <div class="w3-container" style="height: 457px; padding: 20px; ">
+                    <ul class="w3-ul">
+							<i class="fa fa-id-card-o fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink" style="font-size:28px; text-align">Matrics</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink" style="font-size:28px;">A22DW1318</span>
+							<br>
+							<i class="fa fa-university fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink" style="font-size:28px;">Program and Section</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink" style="font-size:28px;">DDWD 40</span>
+						</ul>
+						<br>
+						<div class="resume-buttons">
+                        <a href="Resume.html" target="_blank" style="font-size:20px;">View Resume (HTML)</a>
+                        <a href="Resume.pdf" download style="font-size:20px;">Download Resume (PDF)</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="w3-container w3-pink w3-center w3-margin-top" style="padding-top: 10px; padding-bottom: 18px; width:100%;">
+        <h4>Find me on social media.</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/60123790540" target="_blank";><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/ainxyz_/" target="_blank";><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/@lizyyy" target="_blank";><i class="fa fa-youtube w3-hover-opacity"></i></a>
+            <a href="https://pin.it/2cdeb9JRm" target="_blank";><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a> <!-- Add your Twitter link here -->
+        </div>
+    </footer>
+</body>
+</html>
