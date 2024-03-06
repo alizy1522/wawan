@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aina Safiyah Portfolio</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<style>			
+			.avatar {
+				width: 150px;
+				height: 150px;
+				margin: auto;
+				display: block;
+				border-radius: 50%;
+			}
+			.garisan {
+				border-bottom: 1px solid black;
+				height: 1em;
+				padding-bottom: 10px;
+			}
+			.garisan span {
+				background: white;
+				padding: 0 0.4em;
+			}
+			
+			.w3-container.interest-icons {
+				text-align: center;
+			}
+
+			.interest-icons p {
+				display: inline-block;
+				margin: 10px;
+			}
+
+			.social-icons {
+				margin-top: 10px;
+			}
+
+			.social-icons i {
+				font-size: 24px; 
+				margin: 0 10px; 
+			}
+			
+		</style>
+	</head>
+	<body>
+	<header class="w3-container w3-pink w3-center">
+		<h1 class="w3-serif"><b>My Resume</b></h1>
+		<p><a href="PersonalInfo.html">Main</a> | <a href="Resume.html">Resume</a> | <a href="Tools.html">Tools</a></p>
+		
+	</header>
+	
+	<div class="w3-content w3-margin-top" style="max-width:1400px;">
+		<div class="w3-row-padding">
+		
+			<!--start left column-->
+			<div class="w3-third">
+				<div class="w3-white w3-text-grey w3-card-4">
+					 <div class="w3-display-container">
+					 <br>
+						<img class="avatar" src="images/Profile.jpg" alt="Aina Safiyah">
+						<h2 style="color:black; text-align:center;">Aina Safiyah</h2>
+					 </div>
+					 <div class="w3-container">
+						<h4 class="garisan"><span>Profile</span></h4>
+						<p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-large w3-text-pink"></i>15-02-2004</p>
+						<p><i class="fa fa-mortar-board fa-fw w3-margin-right w3-large w3-text-pink"></i>Studyholic</p>
+						<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-pink"></i>Johor, Malaysia</p>
+						<p><i class="fa fa-quote-left fa-fw w3-margin-right w3-large w3-text-pink"></i>
+						Speak your mind even if your voice shakes</p>
+						
+						<hr>
+						
+						<h4 class="garisan"><span>Contact</span></h4>
+						<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-pink"></i>012-3790540</p>
+						<p><i class="fa fa-comments-o fa-fw w3-margin-right w3-large w3-text-pink"></i>www.lizyline.com</p>
+						<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-pink"></i>
+						nurainasafiyahz@gmail.com</p>
+						
+						<hr>
+
+						<h4 class="garisan"><span>Languages</span></h4>
+						<p>Malay</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-pink" style="height:20px;width:100%">
+							</div>
+						</div>
+						<p>English</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-pink" style="height:20px;width:75%">
+							</div>
+						</div>
+						<p>Japanese</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-pink" style="height:20px;width:55%">
+							</div>
+						</div>
+						<p>Arabic</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-pink" style="height:20px;width:38%">
+							</div>
+						</div>
+						<p>German</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-pink" style="height:20px;width:28%">
+							</div>
+						</div>
+						<br>
+						
+					 </div> 
+				</div>
+			</div>
+			<!--end left column-->
+			<!--start right column-->
+			<div class="w3-twothird">
+				<!--start 1st right column-->
+				<div class="w3-container w3-card w3-white w3-margin-bottom">
+					<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw 
+					w3-margin-right w3-xxlarge w3-text-pink"></i>Education</h2>
+					<div class="w3-container">
+						<ul class="w3-ul">
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2022-2025</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">University Technology Malaysia, Kuala Lumpur</span>
+							<p class="w3-margin-left" >Diploma in Computer Science</p>
+						
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2025-2027</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">University of Queensland, Australia</span>
+							<p class="w3-margin-left" >Degree in Computer Science</p>
+							
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2027-2029</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">University of South Wales, UK</span>
+							<p class="w3-margin-left" >Master of Science in Computer Forensics and Cybercrime</p>
+						</ul>
+					</div>
+				</div>
+				<!--end 1st right column-->
+				
+				<!--start 2nd right column-->
+				<div class="w3-container w3-card w3-white w3-margin-bottom">
+					<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-trophy fa-fw w3-margin-right w3-xxlarge w3-text-pink">
+					</i>Archievement</h2>
+					<div class="w3-container">
+						<ul class="w3-ul">
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2013-2015</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">Archery Tournament</span>
+							<ul class="w3-margin-left">
+								<li>Won 2nd place on Archery group category</li>
+								<li>Won 3rd place on Archery individual category</li>
+							</ul>
+								
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2017-2019</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">Ninjutsu (Japanese martial art)</span>
+							<ul class="w3-margin-left">
+								<li>awarded 3rd kyu rank</li>
+							</ul>
+								
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2019-2020</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">International Program Facilitator</span>
+							<ul class="w3-margin-left">
+								<li>Escort for Japanese Exchange Student Program</li>
+							</ul>
+								
+							<i class="fa fa-calendar fa-fw w3-margin-right w3-text-pink"></i>
+							<span class="w3-text-pink">2019-2020</span>
+							<span class="w3-margin-left">|</span>
+							<span class="w3-margin-left w3-text-pink">Dean's List</span>
+							<ul class="w3-margin-left">
+								<li>Awarded for academic excellence, attaining a CGPA of 3.78 across two semesters.</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+				<!--end 2nd right column-->
+				
+				<!--start 3rd right column-->
+				<div class="w3-quarter" style="width: 33%; " >
+					<div class="w3-container w3-card w3-white w3-margin-right interest-icons " style="text-align:center; height: 287px; padding: 20px; ">
+						<div class="w3-container">
+						<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-heart w3-margin-right w3-xxlarge w3-text-pink">
+						</i>Interest</h2>
+						<p><i class="fa fa-paw fa-fw  w3-xxlarge w3-text-pink "></i></p>
+						<p><i class="fa fa-gamepad fa-fw  w3-xxlarge w3-text-pink "></i></p>
+						<p><i class="fa fa-music fa-fw  w3-xxlarge w3-text-pink " ></i></p>
+						<p><i class="fa fa-plane fa-fw  w3-xxlarge w3-text-pink " ></i></p>
+						</div>
+					</div>
+				</div>	
+				<!--end 3rd right column-->
+				
+				<!--start right right column-->	
+				<div class="w3-twothird " >
+					<div class="w3-container w3-card w3-white w3-margin-bottom">
+						<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-cog fa-fw w3-margin-right w3-xxlarge w3-text-pink"></i>Skills</h2>
+						<div class="w3-container">
+							<ul class="w3-ul" style="padding-left: 20px;">
+								<li style="line-height: 2;"><span style="width: 200px; display: inline-block;">C Language</span>
+								<i class="fa fa-star w3-text-pink" ></i><i class="fa fa-star w3-text-pink"></i><i class="fa fa-star-o w3-text-pink"></i></li>
+								<li style="line-height: 2;"><span style="width: 200px; display: inline-block;">C++ Language</span>
+								<i class="fa fa-star w3-text-pink"></i><i class="fa fa-star-half-o w3-text-pink"></i><i class="fa fa-star-o w3-text-pink"></i></li>
+								<li style="line-height: 2;"><span style="width: 200px; display: inline-block;">Java Language</span>
+								<i class="fa fa-star w3-text-pink"></i><i class="fa fa-star w3-text-pink"></i><i class="fa fa-star-half-o w3-text-pink"></i></li>
+								<li style="line-height: 2;"><span style="width: 200px; display: inline-block;">MySQL</span>
+								<i class="fa fa-star w3-text-pink"></i><i class="fa fa-star w3-text-pink"></i><i class="fa fa-star-o w3-text-pink"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--end right column-->
+	</div>
+
+    <footer class="w3-container w3-pink w3-center w3-margin-top" style="padding-top: 10px; padding-bottom: 18px; width:100%;">
+        <h4>Find me on social media.</h4>
+        <div class="social-icons">
+            <a href="https://wa.me/60123790540" target="_blank";><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/ainxyz_/" target="_blank";><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/@lizyyy" target="_blank";><i class="fa fa-youtube w3-hover-opacity"></i></a>
+            <a href="https://pin.it/2cdeb9JRm" target="_blank";><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a> <!-- Add your Twitter link here -->
+        </div>
+    </footer>
+	</body>
+</html>
